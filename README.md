@@ -38,3 +38,19 @@
 ![image](https://github.com/user-attachments/assets/c79e7851-8ce7-4039-9ca0-e4a460492395)
 ![image](https://github.com/user-attachments/assets/d36dd19a-c7f5-4a63-8a59-c0d785596307)
 Ответ: UPDATE products SET name = 'PS5' WHERE name = 'IMAC';
+
+Создайте таблицу users с полем id типа INT и двумя текстовыми полями, которые будут хранить имя (first_name) и фамилию (last_name). Длина имени и фамилии не превышает 50 символов.
+Добавьте в таблицу трех пользователей: Дмитрия Иванова, Анатолия Белого и Дениса Давыдова.
+![image](https://github.com/user-attachments/assets/856b6562-190f-4631-9f65-88fd9ebdb9ab)
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50)
+);
+![image](https://github.com/user-attachments/assets/aa82cfe9-7909-4449-a737-a1e568623135)
+INSERT INTO users (first_name, last_name)
+VALUES
+    ('Дмитрий', 'Иванов'),
+    ('Анатолий', 'Белый'),
+    ('Денис', 'Давыдов');
+![image](https://github.com/user-attachments/assets/dbe5ee16-20e4-43cc-851e-7b5f1da2dd52)
