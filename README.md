@@ -54,3 +54,6 @@ VALUES
     ('Анатолий', 'Белый'),
     ('Денис', 'Давыдов');
 ![image](https://github.com/user-attachments/assets/dbe5ee16-20e4-43cc-851e-7b5f1da2dd52)
+
+
+![image](https://github.com/user-attachments/assets/92f9ebc4-974e-474c-9682-c77459656878)
